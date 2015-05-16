@@ -18,6 +18,7 @@ void * Count(void * a)
         tmp = tmp+1;    /* increment the local copy */
         cnt = tmp;      /* store the local value into the global cnt */ 
     }
+    return NULL; 
 }
 
 int main(int argc, char * argv[])
