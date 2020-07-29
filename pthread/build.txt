@@ -1,0 +1,2 @@
+gcc -pthread -o badcnt badcnt.c
+gcc -pthread -o goodcnt goodcnt.c

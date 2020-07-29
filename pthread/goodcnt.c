@@ -1,6 +1,7 @@
 /* copied from : http://www.csc.villanova.edu/~mdamian/threads/badcnt.txt */ 
 
 #include <pthread.h>
+#include <fcntl.h>
 #include <semaphore.h>
 #include <stdio.h>
 #include <stdlib.h>
